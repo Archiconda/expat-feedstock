@@ -21,6 +21,7 @@ requirements:
     - cmake  # [win]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - make   # [unix]
   host:
     - msinttypes  # [win and vc<14]
 
